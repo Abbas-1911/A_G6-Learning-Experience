@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Challenge Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-6xl mx-auto text-center">
+        <!-- General Image -->
+        <img 
+            src="images/2.png" 
+            alt="Team Challenge Experience" 
+            class="w-full h-auto rounded-lg shadow-md mb-6"
+        >
+        
+        <h1 class="text-4xl font-bold mb-2">Team Challenge Experience</h1>
+        <p class="text-gray-600 mb-6">Sharing our learnings and thoughts from the group challenges!</p>
+        
+        <h2 class="text-2xl font-semibold mb-2">Round 1 - Section A - Group 6</h2>
+        <p class="text-gray-700 mb-8">Our team participated in the first round of challenges, showcasing our creativity and technical skills.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <script>
+                const members = [
+                { name: "Rafia", opinion: "Hi, I'm Rafia. I really enjoyed the challenge because it helped me improve my coding skills and taught me how to collaborate better with my teammates." },
+                    { name: "Rimsha", opinion: "Hello, I'm Rimsha. This challenge was an amazing opportunity for me to brainstorm ideas and learn from the unique perspectives of my friends." },
+                    { name: "Zoya", opinion: "Hi, I'm Zoya. Yesterday,  was an interesting experience.The whole activity was engaging and fun, and it helped me to  learn the importance of teamwork and quick thinking and deepens my understanding of how layout, design  work together to make interesting user interface increasing my enthusiasm for web development." },
+                    { name: "Dinesh", opinion: "Hey, I'm Dinesh. I appreciated the hands-on experience this challenge gave me, especially in working together to solve complex problems." },
+                    { name: "Zohaib", opinion: "Hi, I'm Zohaib. Through this challenge, I learned the importance of clear communication, which was key to achieving our goals as a team." },
+                    { name: "Saman", opinion: "Hello, I'm Saman. Yesterday’s learning experience was both thrilling and eye-opening, as I had never encountered this type of competition in my academic career. I see this as a valuable step in my growth journey in tech, providing me with an opportunity to identify and improve my flaws. It made me reflect on where I currently stand and what steps I need to take to become a better version of myself and achieve my future goals. This experience will play a key role in shaping my path forward. Thank you!" },
+                    { name: "Waqas", opinion: "Hey, I'm Waqas. I spent 5-6 hours  learning HTML, CSS, and JavaScript, and it was an eye-opening experience. I discovered that I could view a website on my phone by using its IP address while connected to the same network, instead of relying solely on inspect elements. Working with a team where everyone brought unique skills made the process highly efficient and enjoyable. This experience has further motivated me to pursue web development as a career, especially as I continue learning the MERN stack." },
+                    { name: "Ahmed", opinion: "As a member of Team A-G6 in the BSCS 633 Internet Application Development challenge, my experience was both challenging and enriching. Our team selected a problem from the \"Project\" section of the 4th chapter of Jeffrey C. Jackson's Web Technologies, and we presented it to the other group. After explaining the problem and its relevance, we spent 15 minutes brainstorming and devising a solution. During the explanation phase, each of us took turns walking through the flow diagram and the code we developed. The Q&A session that followed tested our understanding and ability to defend our solution, and we were able to successfully counter the tricky questions posed by the other team. The challenge also gave us an opportunity to analyze the other team's approach, and after completing the task, we answered five follow-up questions. It was a rewarding experience, where I was able to showcase my problem-solving skills and collaborate effectively with my team. Ultimately, it was a great learning opportunity, and I felt proud of our performance." },
+                    { name: "Abbas", opinion: "Hi, I'm Abbas. As the leader, I found this challenge incredibly fulfilling. It tested my ability to guide the team, make quick decisions, and bring everyone together under a shared vision. I particularly enjoyed solving the JavaScript challenges, such as the one where we measured browser alert speed. It was fascinating to see how timing with the Date object works and how browsers handle tasks differently. Another highlight was the game simulation, where I learned to logically analyze and score guesses. These exercises not only enhanced my problem-solving skills but also showcased how coding can be both entertaining and educational." },
+                    { name: "Hamza", opinion: "Hey, I'm Hamza. The challenge was incredibly rewarding for me because it boosted my confidence in my technical abilities and teamwork skills." }
+                ];
+                
+                members.forEach(member => {
+                    document.write(`
+                        <div class="bg-white shadow-lg rounded-lg p-6 text-left">
+                            <h3 class="text-xl font-semibold mb-2">${member.name}</h3>
+                            <p class="text-gray-700">${member.opinion}</p>
+                        </div>
+                    `);
+                });
+            </script>
+        </div>
+        
+        <footer class="mt-8 text-center">
+            <h3 class="text-xl font-semibold">General Learnings</h3>
+            <ul class="list-disc list-inside text-left max-w-2xl mx-auto mt-4 text-gray-600">
+                <li>Collaboration and teamwork enhanced our problem-solving skills.</li>
+                <li>Understanding different perspectives made us more creative.</li>
+                <li>Hands-on coding challenges boosted our technical confidence.</li>
+                <li>We learned to manage time effectively under pressure.</li>
+                <li>Communication played a crucial role in aligning our solutions.</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
